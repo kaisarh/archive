@@ -1,0 +1,140 @@
+/* 
+
+<meta http-equiv="Content-Language" content="en-us" />
+<link rel="stylesheet" href="style.css" />
+
+	general body properties
+*/
+
+body {
+	background : #336699;
+	font-family: MS Sans Serif;
+	font-size: 10pt;
+	margin-top : 6px;
+	margin-left : 6px;
+	color : white;
+}
+
+/* 
+	for links in the page 
+	---------------------
+*/
+
+A:link, A:active, A:visited {
+	color : white;
+}
+A:hover {
+	font-weight: bold;
+	background: none;
+}
+
+/* 
+	table properties 
+	----------------
+*/
+
+table{
+	font-family: MS Sans Serif;
+	font-size: 10pt;
+}
+
+table.msg {
+	background: #336699;
+	color: white;
+   	border-collapse: collapse;
+   	border: solid 1px white;
+}
+
+th.msg {
+	background-color : #A5B8C9;
+	border : solid 1px white;
+	text-align : left;
+}
+
+/*
+	-----------------------
+*/
+
+table.list {
+	color: black;
+	border : solid 1px white;
+	text-indent: 5px;
+   	border-collapse: collapse;
+
+}
+
+th.list {
+	background-color : #A5B8C9;
+	border : none;
+	color : black;
+	text-align : center;
+}
+
+td.list {
+	background-color : #336699;
+	border : solid 1px #A5B8C9;
+	color : white;
+}
+
+/* 
+	for links in the table
+	---------------------
+*/
+
+a:link.table, a:active.table, a:visited.table {
+	text-decoration: underline;
+	color : white;
+}
+a:hover.table {
+	font-weight: bold;
+	background: none;
+}
+
+/*
+	-----------------------
+*/
+
+table.menu {
+	color: white;
+	border : solid 1px white;
+	text-indent: 5px;
+   	border-collapse: collapse;
+}
+
+th.menu {
+	background-color : #A5B8C9;
+	border : none;
+	text-align : center;
+}
+td.menu {
+	border : solid 1px #A5B8C9;
+	text-align : center;
+}
+
+/* 
+	for links in the menu
+	---------------------
+*/
+
+a:link.menu, a:active.menu, a:visited.menu {
+	text-decoration: none;
+	color : white;
+}
+
+a:hover.menu {
+	font-weight: bold;
+	background: none;
+}
+
+
+
+/*
+	-----------------------
+*/
+
+table.acc {
+	color: black;
+	border : solid 1px black;
+	background-color: #A5B8C9;
+	text-indent: 5px;
+}
